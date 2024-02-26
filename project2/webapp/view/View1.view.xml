@@ -1,7 +1,10 @@
-<mvc:View controllerName="project2.controller.View1"
-    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
-    xmlns="sap.m">
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="project2.controller.View1" displayBlock="true">
     <Page id="page" title="{i18n>title}">
-        <content />
+        <content>
+            <Label text="This is a simple app." width="100%" id="label0"/>
+        </content>
+    <headerContent>
+        <Button xmlns="sap.m" text="Button" id="button0"/>
+    </headerContent>
     </Page>
 </mvc:View>
